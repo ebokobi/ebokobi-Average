@@ -19,10 +19,11 @@ public class Average {
      */
     public double getAvg(int[] nums){
         int sum = 0;
-        double avg = (double)sum / nums.length;
+        // double avg = (double)sum / nums.length;
         for(int i:nums) {
             sum += i;
         }
+        double avg = (double)sum / nums.length;
         return avg;
     }
 }
